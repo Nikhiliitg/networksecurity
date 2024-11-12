@@ -6,5 +6,6 @@ pyOpenSSL==23.0.0
 pandas
 numpy
 pymongo[srv]==4.3.3
+scikit-learn
 
 -e .
