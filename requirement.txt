@@ -9,5 +9,7 @@ pymongo[srv]==4.3.3
 scikit-learn
 dill
 pyyaml
+fastapi
+uvicorn
 
 -e .
