@@ -1,15 +1,15 @@
-pymongo==4.3.3
-certifi
-dnspython>=1.13.0,<2.0.0
-python-dotenv==1.0.0
-pyOpenSSL==23.0.0
+python-dotenv
 pandas
 numpy
-pymongo[srv]==4.3.3
+pymongo
+certifi
+pymongo[srv]
 scikit-learn
-dill
-pyyaml
+mlflow
+pyaml
+dagshub
 fastapi
 uvicorn
+python-multipart
 
--e .
+##-e .
