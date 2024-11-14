@@ -9,7 +9,7 @@ RUN apt update -y && \
     apt clean
 
 # Install dependencies from requirements.txt
-RUN pip install -v --no-cache-dir -r requirements.txt
+RUN pip install -v --no-cache-dir -r requirement.txt
 
 # Set the command to run the application
 CMD ["python3", "app.py"]
