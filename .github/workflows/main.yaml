@@ -5,7 +5,7 @@ on:
             - main
         paths-ignore:
             - 'README.md'
-
+            
 jobs:
     integration:
         name: Continuous Integration
